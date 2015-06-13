@@ -13,7 +13,7 @@ public class Testes {
 		
 		
 		Bibliotecario biblio  = new Bibliotecario();
-		Livro novoLivro= null; 
+		Livro novoLivro = null; 
 		//biblio.cadastraLivro(novoLivro);
 		assertTrue(biblio.cadastraLivro(novoLivro)); 
 		//fail("Not yet implemented");
@@ -29,7 +29,7 @@ public class Testes {
 		
 		String nome = buscaLivro.getNome();
 		
-		assertEquals("Nome Livro", buscaLivro.getNome());
+		assertEquals("Nome Livro", nome);
 		
 		
 	}
